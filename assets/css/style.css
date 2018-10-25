@@ -1,12 +1,12 @@
 h1 {
-    background-color: green;
+    background-image: url("../images/background2.jpg");
     padding: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 body {
-    background-image: url("../images/skulls.png");
+    background-image: url("../images/background2.jpg");
 }
 
 .instructions-box {
@@ -23,10 +23,6 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
-
-/*#crystalImagesRow {
-    padding: 20px;
-}*/
 
 .targetNumber-box{
     font-size: 60px;
