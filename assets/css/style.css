@@ -1,0 +1,49 @@
+h1 {
+    background-color: green;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body {
+    background-image: url("../images/skulls.png");
+}
+
+.instructions-box {
+    padding: 30px;
+    font-weight: bold;
+}
+
+.targetNumTitle-box {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.yourTotalTitle-box {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*#crystalImagesRow {
+    padding: 20px;
+}*/
+
+.targetNumber-box{
+    font-size: 60px;
+}
+
+.yourTotal-box {
+    font-size: 60px;
+}
+
+.wins-box {
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.losses-box {
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 30px;
+}
