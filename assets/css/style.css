@@ -36,10 +36,12 @@ body {
     font-size: 30px;
     padding: 30px;
     margin-top: 30px;
+    font-weight: bold;
 }
 
 .losses-box {
     font-size: 30px;
     padding: 30px;
     margin-top: 30px;
+    font-weight: bold;
 }
