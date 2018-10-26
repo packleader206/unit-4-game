@@ -9,7 +9,7 @@ $(document).ready(function() {
     var losses = 0;
     var yourTotal = 0;
     
-    var images = ["assets/images/bluePNG.png", "assets/images/greenPNG.png", "assets/images/redPNG.png", "assets/images/yellowPNG.png"]
+    var images = ["assets/images/blue1PNG.png", "assets/images/greenPNG.png", "assets/images/redPNG.png", "assets/images/yellowPNG.png"]
     
     //set up Functions
      
