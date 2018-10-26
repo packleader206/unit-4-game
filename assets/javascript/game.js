@@ -13,13 +13,13 @@ $(document).ready(function() {
     
     //set up Functions
      
-    //generates random number 
+    //generates random target number 
     function randomTargetNumber () {
         targetNumber = Math.floor(Math.random() * 102) + 19;
     }
     
     //loop function to assign a random numbers for the crystals
-    //uses JQuery to assign attributes to the images & appends images to the parent Div of "crystalImages-Box"
+    //for Loop to set up Crystals with random number assignment. Uses JQuery to assign attributes to the images & appends images to the parent Div of "crystalImages-Box"
     
     function randomCrystalNumbers () {
         for (var i = 0; i < images.length; i++) {
@@ -31,7 +31,7 @@ $(document).ready(function() {
             crystal.attr("height", "100");
         }
     }
-    //update html with current status
+    //function to update html with totals. Also, clears the crystal images so they don't duplicate (randomCrystalNumbers function generates a new set of crystals each time it's invoked)
     function updateStats () {
         $(".targetNumber-box").html(targetNumber);
         $(".wins-box").html("<p>Wins: " + wins + "</p>");
