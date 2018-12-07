@@ -28,7 +28,7 @@ $(document).ready(function() {
             crystal.attr("src", images[i]);
             crystal.attr("value", (Math.floor(Math.random() * 12) +1));
             $(".crystalImages-box").append(crystal);
-            crystal.attr("height", "100");
+            //crystal.attr("height", "100"); <--moved this line of code over to CSS stylesheet
         }
     }
     //function to update html with totals. Also, clears the crystal images so they don't duplicate (randomCrystalNumbers function generates a new set of crystals each time it's invoked)
@@ -51,7 +51,7 @@ $(document).ready(function() {
     }
     
     
-    //call/initiate functions to start
+    //call/invoke functions to start game
     randomTargetNumber ();
     updateStats ();
     randomCrystalNumbers ();
